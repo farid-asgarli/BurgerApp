@@ -1,0 +1,31 @@
+.Order {
+  width: 300px;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  margin: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+.Order:hover,
+.Order:active {
+  background-color: #40a4c8;
+}
+
+.Order:hover p,
+.Order:hover h3,
+.Order:active p,
+.Order:active .h3 {
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.Order h5 {
+  transition: 0.3s ease-in-out;
+  color: rgb(0, 0, 0);
+}

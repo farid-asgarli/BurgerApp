@@ -1,0 +1,36 @@
+.Input {
+  text-align: center;
+}
+
+.Input label {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Input input,
+.Input textarea,
+.Input select {
+  display: block;
+  width: 80%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  border: thin solid #ccc;
+  transition: 0.2s ease-in-out;
+  outline: none;
+  margin: 25px auto;
+}
+
+.Input input:focus,
+.Input textarea:focus,
+.Input select:focus {
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.Invalid {
+  border: 1px solid red;
+  background-color: #fda49a;
+}
